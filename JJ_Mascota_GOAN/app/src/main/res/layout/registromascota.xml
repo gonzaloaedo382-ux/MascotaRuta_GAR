@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="nombre"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="290dp">
+
+    </EditText>
+
+    <RadioButton
+        android:id="@+id/Registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="378dp">
+
+    </RadioButton>
+
+    <Button
+        android:id="@+id/btnMostrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MostrarRegistro"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="462dp">
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
